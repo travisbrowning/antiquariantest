@@ -232,10 +232,16 @@ footer {
 
 @media screen and (max-width: 320px) {
   #logo {
-    font-size: 3em;
+    font-size: 2.5em;
   }
 
   #abouttxt {
     font-size: 1em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .infotxt {
+    font-size: 1.8em;
   }
 }
